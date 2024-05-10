@@ -3,42 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML: Tags and Meaning II - Structure</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Week 1 submission: SpaceY</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header>
-        <h1>spacey</h1>
-        <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">rockets</a></li>
-            <li><a href="">tickets</a></li>
-            <li><a href="">pricing</a></li>
-        </ul>
+
+        <h1 class="mainLogo">spacey</h1>
+
+        <nav class="mainNavigation">
+            <a href="#section01">home</a>
+            <a href="#section01">about</a>
+            <a href="#section02">tickets</a>
+            <a href="#section02">rockets</a>
+            <a href="#section03">pricing</a>
+        </nav>
+
     </header>
 
-    <section>
-        <p>recent launch</p>
-        <h2>ship flight video</h2>
-        <button>read more</button>
+    <section id="section01" class="section">
+        <div class="sectionBox">
+            <h2>recent launch</h2>
+            <h3>ship flight video</h3>
+            <button>read more</button>
+        </div>
     </section>
 
-    <section>
-        <p>buy tickets</p>
-        <h2>you can go to space</h2>
-        <button>read more</button>
+    <section id="section02" class="section">
+        <div class="sectionBox">
+            <h2>buy tickets</h2>
+            <h3>you can go to space</h3>
+            <button>read more</button>
+        </div>
     </section>
 
-    <section>
-        <p>space travel deals</p>
-        <h2>you might not have to sell a kidney!</h2>
-        <button>read more</button>
+    <section id="section03" class="section">
+        <div class="sectionBox">
+            <h2>space travel deals</h2>
+            <h3>you might not have to sell a kidney!</h3>
+            <button>read more</button>
+        </div>
     </section>
 
     <footer>
-        spacey copyright &#169;
+        SpaceY &#169; 2023
     </footer>
 
 </body>
