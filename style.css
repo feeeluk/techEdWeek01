@@ -1,0 +1,48 @@
+body {
+    background: rgb(192, 219, 248);
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://th.bing.com/th/id/R.092fb7125ab03c399d6f1e8c41833349?rik=zkb39NOr4SQ3xw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fBackgrounds-HD-Diamond-Pattern.jpg&ehk=z3e4ZWyitQsh%2fmVnGreeZ0VsZEAoKCWxMvJYoUWW0%2bE%3d&risl=&pid=ImgRaw&r=0");
+}
+
+#christian {
+    width: 270px;
+    height: 352px;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+#toto {
+    width: 270px;
+    height: 352px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.teamPrincipal{
+    width: 100px;
+}
+
+.car{
+    border: solid;
+    border-width: 1px;
+    border-radius: 2mm;
+    background-color: rgba(226, 226, 226, 0.32);
+}
+
+#main{
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+h1:hover{
+    color:bisque;
+
+h3, h5 {
+    margin: 0px;
+    padding: 0px;
+}
