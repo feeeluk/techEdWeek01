@@ -89,9 +89,9 @@ header{
     margin: 0px 0px 30px 0px;
 }
 
-.sectionBox > button{
+.sectionBox > button, .sectionBox > a > button{
     color: white;
-    border: 3px white solid;
+    border: 2px white solid;
     background: none;
     z-index: 10;
     text-transform: uppercase;
@@ -104,7 +104,7 @@ header{
     padding-left: 32px;
 }
 
-.sectionBox > button:hover{
+.sectionBox > button:hover, .sectionBox > a > button:hover{
     background-color: white;
     color: black;
 }
@@ -136,6 +136,23 @@ footer{
     font-size: 16px;
     text-align: center;
     padding: 40px;
+}
 
+/* FUN */
 
+.moon{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(black, black, black, .5);
+    background-image: url("https://th.bing.com/th/id/R.8f1346cf2ae3370d6d7c390f630cd7e9?rik=xSmq5sC0L1jSFQ&pid=ImgRaw&r=0");
+    background-size: cover ;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 80%;
+    visibility: hidden;
+}
+
+#fun:hover + div{
+    visibility:visible;
 }
